@@ -1,0 +1,91 @@
+<style>
+    body {
+        font-family: 'Zen Maru Gothic', cursive;
+        background: linear-gradient(to bottom right, #ffe6f7, #f0e5ff);
+        margin: 0;
+        padding: 30px;
+        color: #444;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 0 20px rgba(255, 182, 193, 0.3);
+        border: 2px dashed #ffb6c1;
+    }
+
+    h1, h2 {
+        text-align: center;
+        color: #ff69b4;
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-top: 15px;
+        color: #cc3366;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="file"],
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+        border-radius: 10px;
+        border: 1px solid #ffb6c1;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        background-color: #ff69b4;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #ff1493;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 30px;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ffc0cb;
+        text-align: center;
+    }
+
+    th {
+        background-color: #ffd1dc;
+        color: #d63384;
+    }
+
+    tr:nth-child(even) {
+        background-color: #fff0f5;
+    }
+
+    a {
+        text-decoration: none;
+        color: #ff69b4;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: #c71585;
+        text-decoration: underline;
+    }
+	
+</style>
